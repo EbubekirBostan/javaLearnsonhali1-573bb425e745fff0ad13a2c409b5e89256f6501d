@@ -1,5 +1,7 @@
 package j12_Loops.L01_ForLoop.ForLoopTasks;
 
+import java.util.Scanner;
+
 public class Task06_Nested {
     public static void main(String[] args) {
         // 1 x 1 = 1
@@ -19,6 +21,15 @@ public class Task06_Nested {
 
 
                 System.out.println(crpn1+" x "+crpn2+" = "+(crpn1*crpn2));
+            }
+            System.out.println();
+        }
+        Scanner sc=new Scanner(System.in);
+        System.out.println("ÇArpım tablosunu görmek istediğiniz sayıyı girin");
+        int secim= sc.nextInt();
+        for (int i = 1; i <=10 ; i++) {
+            for (int j = secim; j <=secim ; j++) {
+                System.out.print((j)+" x "+(i)+ " = "+(i*j));
             }
             System.out.println();
         }

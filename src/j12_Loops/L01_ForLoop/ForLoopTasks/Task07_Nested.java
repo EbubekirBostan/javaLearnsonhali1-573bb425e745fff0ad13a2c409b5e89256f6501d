@@ -29,16 +29,10 @@ public class Task07_Nested {
          */
 
         Scanner sc=new  Scanner(System.in);
-
-
         System.out.println("kare için boyut giriniz : ");
-
         int boyut=sc.nextInt();
-
         for (int i = 1; i <=boyut ; i++) {//apt döngü
             for (int j = 1; j <=boyut ; j++) {//daire döngü
-
-
                 if (i==j){
                     System.out.print("1  ");
                 }else System.out.print("0  ");

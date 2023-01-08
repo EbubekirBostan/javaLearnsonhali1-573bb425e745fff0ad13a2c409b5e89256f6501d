@@ -11,7 +11,7 @@ public class _15_Word_Count {
         String'deki kelime sayısını yazdırınız.
          */
         String word="Removes white space from both ends of a string";
-        word=word.replace("\\W","");
+        System.out.println(word = word.replace("\\W", ""));
         String wordArr[]=word.split(" ");
         System.out.println(Arrays.toString(wordArr));
         System.out.println(wordArr.length);//[Removes, white, space, from, both, ends, of, a, string]=9

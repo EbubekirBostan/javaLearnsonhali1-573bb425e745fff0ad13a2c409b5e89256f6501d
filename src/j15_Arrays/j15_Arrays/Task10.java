@@ -18,12 +18,10 @@ public class Task10 {
             array[i]=sc.nextInt();
         }
         System.out.println(Arrays.toString(array));
-        for (int i = 0; i < array.length ; i++) {
-            array[i]*=-1;
+        for (int i :array) {
+            i=i*(-1);
+            System.out.print("i = " + i);
         }
-        System.out.println(Arrays.toString(array));
-
-
     }
 
 

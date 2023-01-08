@@ -1,5 +1,7 @@
 package j12_Loops.L01_ForLoop.ForLoopTasks;
 
+import java.util.Scanner;
+
 public class Task05_Nested {
     public static void main(String[] args) {
         /*
@@ -17,6 +19,17 @@ public class Task05_Nested {
                 System.out.print("# ");
             }
             System.out.println();//dumy->hayalet komut:işlevi olmayan satır atlatan komut
+        }
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Kaç satır ve sütunlu şekil istiyorsunuz");
+        int secim= sc.nextInt();
+
+        for (int i = 0; i <secim ; i++) {
+            for (int j = 0; j <secim-1 ; j++) {
+                System.out.print(" # ");
+            }
+            System.out.println();
+
         }
 
 

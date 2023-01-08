@@ -89,16 +89,5 @@ public class C02_DataTypes {
         String yasım="35";
 
         System.out.println(ad+" "+soyad+" "+yasım);
-
-
-
-
-
     }
-
-
-
-
-
-
 }

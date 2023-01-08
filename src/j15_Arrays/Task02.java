@@ -13,9 +13,11 @@ public class Task02 {
         for (int i = 0; i <arr.length ; i++) {
             System.out.println(i+". index elemanı giriniz");
             arr[i]=sc.nextInt();
-            toplam+=arr[i];
-
         }
+        for (int a:arr){
+            toplam+=a;
+        }
+
         System.out.println("toplam = " + toplam);
     }
 }

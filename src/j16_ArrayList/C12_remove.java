@@ -18,6 +18,13 @@ public class C12_remove {
         System.out.println("listSehir = " + listSehir);//[Münih, Stockholm, Münih, Angara, Münih]
         listSehir.remove("Münih");// tekrarlı da ilk eleman siler
         System.out.println("listSehir = " + listSehir);//listSehir = [Stockholm, Münih, Angara, Münih]
+        ArrayList<String> listUlke=new ArrayList<>(List.of("Alamanya","Amerikanya","Ingiltere","Isvec"));
+        listSehir.addAll(listUlke);// şehir liste ülke list eklendi
+        System.out.println("listSehir = " + listSehir);// yazdırıldı
+        listSehir.removeAll(listUlke);// sehirlistten ulkeler cıkarıldı
+        System.out.println("listSehir = " + listSehir);// ulkeler cıkarılıp yazdırıldı
+
+
 
 
 
